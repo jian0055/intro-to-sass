@@ -1,0 +1,53 @@
+/* Imports */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.border, ul {
+  border: 1px solid #aaaaaa;
+}
+
+.border p, ul p {
+  color: #3498db;
+}
+
+@media only screen and (min-width: 30em) {
+  .border, ul {
+    border-color: #3498db;
+  }
+}
+
+.primary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #3498db;
+}
+
+.primary-btn:hover {
+  background: #196090;
+}
+
+.secondary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #aaaaaa;
+}
+
+.secondary-btn:hover {
+  background: #777777;
+}
+
+/*# sourceMappingURL=style.css.map */
